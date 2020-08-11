@@ -1,0 +1,30 @@
+{
+  "name": "quill-delta-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "",
+    "build-webpack": "webpack --config webpack.config.js",
+    "build-rollup": "rollup -c rollup.config.js",
+    "start": "echo \"Open file, e.g., to http://localhost:8000/index.webpack.html or http://localhost:8000/index.rollup.html\" && static -p 8000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "quill-delta": "^4.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@rollup/plugin-babel": "^5.1.0",
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "node-static": "^0.7.11",
+    "rollup": "^2.23.1",
+    "rollup-plugin-re": "^1.0.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
